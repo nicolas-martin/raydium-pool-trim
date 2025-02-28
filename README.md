@@ -19,10 +19,10 @@ go run main.go [flags]
 ```
 
 Available flags:
-- `-input`: Specify custom input file path
-- `-token`: Specify custom token list file path
-- `-mint`: Filter by specific token mint address
-- `-ticker`: Filter by token ticker symbol
+- `-input` (optional): Specify custom input file path. Using this flag avoids redownloading pool data if you already have a local copy.
+- `-mint` Filter by specific token mint address
+- `-token` (optional): Token contract address
+- `-ticker` (optional): Filter by token ticker symbol if the contract address is unknown
 
 ## Output
 
